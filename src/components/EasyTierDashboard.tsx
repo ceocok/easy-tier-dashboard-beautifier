@@ -29,8 +29,8 @@ interface Node {
   conn_type: string;
 }
 
-const API_URL = 'http://127.0.0.1:8964/api/nodes';
-const REFRESH_INTERVAL = 15000;
+const API_URL = 'http://118.31.43.162:4000/api/nodes';
+const REFRESH_INTERVAL = 10000;
 
 const EasyTierDashboard: React.FC = () => {
   const [nodes, setNodes] = useState<Node[]>([]);
