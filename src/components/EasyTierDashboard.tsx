@@ -29,7 +29,7 @@ interface Node {
   conn_type: string;
 }
 
-const API_URL = 'http://118.31.43.162:4000/api/nodes';
+const API_URL = 'http://118.31.43.162:8964/api/nodes';
 const REFRESH_INTERVAL = 10000;
 
 const EasyTierDashboard: React.FC = () => {
